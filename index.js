@@ -1,4 +1,4 @@
 function openChildPage(){
   alert('Hello from child page');
-  window.opener.postMessage('asdf');
+  window.opener.postMessage('Message to the parent', "*");
 }
